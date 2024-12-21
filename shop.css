@@ -1,0 +1,231 @@
+
+body{
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(231, 229, 229);
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0px 4px 4px 0px rgb(155, 154, 154);
+    position: fixed;
+    width: 100%;
+    top: 0%;
+}
+nav ul li{
+    display: inline;
+}
+nav ul a{
+    text-decoration: none;
+    margin-inline: 25px;
+    color: black;
+    list-style: none;
+    font-size: 18px;
+    font-weight: 600px;
+}
+nav ul a:hover{
+    border-bottom: 1px solid black;
+}
+nav button{
+    width: 80px;
+    height: 28px;
+    background-color: rgb(218, 110, 110);
+    color: white;
+    font-size: 18px;
+    border: none;
+}
+nav button:hover{
+    border: 2px solid red;
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+}
+nav ul {
+    margin-right: 66px;
+    margin-top: 22px;
+
+}
+nav .logo{
+    margin-left: 45px;
+}
+/*---------------------------------------main section--------------------------*/
+.main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 115px;
+}
+.mainText{
+    margin-top: 33px;
+
+}
+.mainText h1{
+    font-size: 53px;
+}
+.mainText h2{
+    font-size: 44px;
+    color: rgb(96, 219, 219);
+
+}
+.main img{
+    margin-right: -115px;
+
+}
+.mainText button{
+    width: 140px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    font-size: 22px;
+    border: none;
+}
+.mainText button:hover{
+    border: 3px solid rgb(199, 122, 122);
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+}
+/*---------------------------------------cloths section--------------------------*/
+.head{
+    text-align: center;
+    margin-top: 45px;padding: 55px;
+}
+.head span{
+    color: rgb(37, 158, 158);
+}
+.card{
+    display: flex;
+    justify-content: center;
+
+}
+.card .trend{
+    width: 280px;
+    background-color: white;
+    margin-inline: 22px;
+}
+.trend img {
+    width: 100%;
+    height: 64%;
+}
+.trend .cardText{
+    padding: 10px;
+}
+.trend i{
+    color: rgb(204, 201, 34)
+    font-size: 22px;
+
+}
+.trend button{
+    width: 90px;
+    height: 28px;
+    background-color: red;
+    border-radius: 22px;
+    border: none;
+    margin-left: 33px;
+    color: black;
+    font-size: 12px;
+}
+.card .trend:hover{
+    background-color: grey;
+    width: 294px;
+    color: white;
+    transition: 0.6s ease;
+}
+/*---------------------------blog Styling---------------------*/
+.blog{
+    display: flex;
+    justify-content: center;
+
+}
+.blog-card{
+    display: flex;
+    background-color: white;
+    margin-inline: 22px;
+    padding: 12px;
+    width: 500px;
+
+}
+.blog-card img{
+    width: 44%;
+    border-radius: 11px;
+}
+.blog-card .blogText{
+    text-align: center;
+    padding: 20px;
+}
+.blogText a {
+    width: 90px;
+    padding: 7px;
+    background-color: rgb(146, 19, 19);
+    color: white;
+    font-size: 18px;
+    border: none;
+    text-decoration-line: none;
+}
+.blog-card:hover{
+    width: 520px;
+    transition: 0.7s ease;
+    background-color: silver;
+}
+/*---------------------------blog Styling---------------------*/
+.customer{
+    display: flex;
+    justify-content: center;
+
+}
+.customer .review{
+    width: 280px;
+    background-color: #fff;
+    padding: 24px;
+    margin-inline: 23px;
+}
+.review img{
+    width: 44%;
+    border-radius: 50%;
+
+}
+.review i{
+    color: orange;
+    font-size: 22px;
+}
+/*---------------------------blog Styling---------------------*/
+.contactPage{
+    border: 4px solid rgb(33, 90, 90);
+    text-align: center;
+    padding: 44px;
+    width: 500px;
+    margin-left: 26%;
+}
+.contactPage input{
+    width: 400px;
+    padding: 7px;
+    font-size: 18px;
+    outline: none;
+    margin-top: 11px;
+}
+.contactPage button{
+    width: 140px;
+    height: 37px;
+    background-color:rgb(10, 39, 10);
+    color: white;
+    font-size: 22px;
+    border: none;
+    margin-top: 27px;
+
+}
+.contactPage button:hover{
+    border: 3px solid aqua;
+    background-color: transparent;
+    color: black;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    color: black;
+    padding: 55px;
+    margin-top: 55px;
+
+}
